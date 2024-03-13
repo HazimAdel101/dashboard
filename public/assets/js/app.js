@@ -1,0 +1,16 @@
+// toggle sidebar items
+function toggleSubMenu(submenuId) {
+    var submenu = document.getElementById(submenuId + 'Submenu');
+    var collapsedIcon = document.getElementById(submenuId + 'CollapsedIcon');
+    var expandedIcon = document.getElementById(submenuId + 'ExpandedIcon');
+
+    if (submenu.style.display === 'block') {
+        submenu.style.display = 'none';
+        collapsedIcon.style.display = 'inline-block';
+        expandedIcon.style.display = 'none';
+    } else {
+        submenu.style.display = 'block';
+        collapsedIcon.style.display = 'none';
+        expandedIcon.style.display = 'inline-block';
+    }
+}

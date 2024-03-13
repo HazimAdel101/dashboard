@@ -14,7 +14,7 @@
     @include('admin.body.sidebar')
     @include('admin.body.header')
 
-
+    <script src="{{ asset('assets/js/app.js') }}"></script>
 </body>
 
 </html>
